@@ -14,8 +14,15 @@
 :root {
   --bg-color: #fdfdfd;
   --text-color: #333;
-  --main-color: #f02652;
+  --main-color: #f75981;
   --white-color: #fdfdfd;
+  --shadow-color: tba(0, 0, 0, 0.2);
+}
+.night-theme {
+  --bg-color: #302f2f;
+  --text-color: #fffefe;
+  --main-color: #1b1b1f;
+  --white-color: #beeaf5;
   --shadow-color: tba(0, 0, 0, 0.2);
 }
 html {
@@ -202,6 +209,5 @@ section {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 100%;
-  pointer-events: none;
+  width: 100;
 }
